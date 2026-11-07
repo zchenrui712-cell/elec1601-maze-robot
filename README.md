@@ -2,7 +2,9 @@
 
 University of Sydney · Introduction to Computer Systems · Group coursework
 
-An Arduino robot uses three infrared (IR) sensors facing left, forward and right to navigate a physical maze. Our group worked on Essential and both parts of Extension.
+[Project page](https://zchenrui712-cell.github.io/robot.html) · [Arduino sketches](#arduino-sketches) · [Course requirements](#course-requirements)
+
+Our group worked on Essential and both parts of Extension. The Arduino uses readings from three infrared (IR) sensors to steer along corridors, recognise turns and respond to dead ends.
 
 ## Arduino sketches
 
@@ -14,7 +16,7 @@ Open each sketch in its matching folder with the Arduino IDE and use the origina
 | Extension Part 1 | [Extension_Part_1.ino](extension/Extension_Part_1/Extension_Part_1.ino) | Uses a route flag to turn around at the first dead end and stop at the next on the return leg. |
 | Extension Part 2 | [Extension_Part_2.ino](extension/Extension_Part_2/Extension_Part_2.ino) | Uses `millis()` to time navigation segments. At a three-wall dead end, it uses elapsed time to choose between turning around and stopping. |
 
-Existing source comments are in English. The archived logic and calibration values are preserved. The sketches have not been rerun on the robot for this portfolio.
+The archived sketches retain their original logic and calibration values, with English comments. This portfolio does not include a new hardware test.
 
 ## Course requirements
 
